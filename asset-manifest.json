@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/Team-2/static/css/main.399542b2.css",
-    "main.js": "/Team-2/static/js/main.0c500811.js",
+    "main.js": "/Team-2/static/js/main.9f09b064.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-2/static/js/787.4ef7427d.chunk.js",
-    "static/media/sweatshirt4.png": "/Team-2/static/media/sweatshirt4.aaee6f766948c91ca411.png",
+    "static/media/sweatshirt5.png": "/Team-2/static/media/sweatshirt5.966482334a8eb171514a.png",
+    "static/media/shirt2.png": "/Team-2/static/media/shirt2.4f6821c6628da62ceb58.png",
+    "static/media/shirt4.png": "/Team-2/static/media/shirt4.c448675fcc62d4b81dc1.png",
     "static/media/shirt5.png": "/Team-2/static/media/shirt5.2dfde79192f6bebff3e2.png",
+    "static/media/shirt1.png": "/Team-2/static/media/shirt1.cea216f51dae5c87f1bb.png",
     "static/media/sweatshirt2.png": "/Team-2/static/media/sweatshirt2.7e7b7867bd1ddb7a8aa3.png",
     "static/media/sweatshirt3.png": "/Team-2/static/media/sweatshirt3.8988e617257583fb4cca.png",
     "static/media/sweatshirt6.png": "/Team-2/static/media/sweatshirt6.b610f2a2743c90e6e024.png",
     "static/media/sweatshirt1.png": "/Team-2/static/media/sweatshirt1.78b8796444ea8e83b776.png",
-    "static/media/sweatshirt5.png": "/Team-2/static/media/sweatshirt5.85a6157e013fbb9984ca.png",
     "static/media/shirt6.png": "/Team-2/static/media/shirt6.2d6514c4f7a9b365b895.png",
-    "static/media/shirt4.png": "/Team-2/static/media/shirt4.e8d77c19c74fde351e9d.png",
     "static/media/shirt3.png": "/Team-2/static/media/shirt3.5bd20894901d94871ac5.png",
+    "static/media/sweatshirt4.png": "/Team-2/static/media/sweatshirt4.4a6e57b1f3e2740e0adb.png",
     "index.html": "/Team-2/index.html",
     "main.399542b2.css.map": "/Team-2/static/css/main.399542b2.css.map",
-    "main.0c500811.js.map": "/Team-2/static/js/main.0c500811.js.map",
+    "main.9f09b064.js.map": "/Team-2/static/js/main.9f09b064.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-2/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.399542b2.css",
-    "static/js/main.0c500811.js"
+    "static/js/main.9f09b064.js"
   ]
 }
