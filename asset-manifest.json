@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Team-2/static/css/main.5e99e0f0.css",
-    "main.js": "/Team-2/static/js/main.76936421.js",
+    "main.css": "/Team-2/static/css/main.399542b2.css",
+    "main.js": "/Team-2/static/js/main.0c500811.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-2/static/js/787.4ef7427d.chunk.js",
     "static/media/sweatshirt4.png": "/Team-2/static/media/sweatshirt4.aaee6f766948c91ca411.png",
     "static/media/shirt5.png": "/Team-2/static/media/shirt5.2dfde79192f6bebff3e2.png",
@@ -14,12 +14,12 @@
     "static/media/shirt4.png": "/Team-2/static/media/shirt4.e8d77c19c74fde351e9d.png",
     "static/media/shirt3.png": "/Team-2/static/media/shirt3.5bd20894901d94871ac5.png",
     "index.html": "/Team-2/index.html",
-    "main.5e99e0f0.css.map": "/Team-2/static/css/main.5e99e0f0.css.map",
-    "main.76936421.js.map": "/Team-2/static/js/main.76936421.js.map",
+    "main.399542b2.css.map": "/Team-2/static/css/main.399542b2.css.map",
+    "main.0c500811.js.map": "/Team-2/static/js/main.0c500811.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-2/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e99e0f0.css",
-    "static/js/main.76936421.js"
+    "static/css/main.399542b2.css",
+    "static/js/main.0c500811.js"
   ]
 }
