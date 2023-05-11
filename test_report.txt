@@ -2,11 +2,56 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test --coverage
 
-No tests found, exiting with code 1
-Run with `--passWithNoTests` to exit with code 0
-In /home/runner/work/Team-2/Team-2
-  32 files checked.
-  testMatch: /home/runner/work/Team-2/Team-2/src/**/__tests__/**/*.{js,jsx,ts,tsx}, /home/runner/work/Team-2/Team-2/src/**/*.{spec,test}.{js,jsx,ts,tsx} - 0 matches
-  testPathIgnorePatterns: /node_modules/ - 32 matches
-  testRegex:  - 0 matches
-Pattern:  - 0 matches
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/FilterClothes.test.tsx
+  FilterClothes Component tests, covering Inventory MVP element
+    ✓ When sweatshirt button is clicked, only sweatshirts are displayed (220 ms)
+    ✓ When shirt button is clicked, only shirts are displayed (87 ms)
+    ✓ When yellow is selected, all yellow clothing is displayed (70 ms)
+    ✓ When red is selected, all red clothing is displayed (57 ms)
+    ✓ When blue is selected, all blue clothing is displayed (59 ms)
+    ✓ When black is selected, all black clothing is displayed (48 ms)
+    ✓ When purple is selected, all purple clothing is displayed (52 ms)
+    ✓ When pink is selected, all pink clothing is displayed (53 ms)
+    ✓ When green is selected, all green clothing is displayed (49 ms)
+    ✓ When all is selected, all all clothing is displayed (47 ms)
+
+-------------------------------|---------|----------|---------|---------|-------------------
+File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------------------|---------|----------|---------|---------|-------------------
+All files                      |    8.05 |    43.01 |   10.84 |    8.05 |                   
+ src                           |    8.82 |    43.01 |   12.85 |    8.82 |                   
+  Admin.tsx                    |       0 |      100 |       0 |       0 | 56                
+  App.tsx                      |       0 |      100 |       0 |       0 | 7                 
+  CartDisplay.tsx              |       0 |      100 |       0 |       0 | 10                
+  ClothingDisplay.tsx          |     100 |      100 |     100 |     100 |                   
+  ColorFilter.tsx              |     100 |      100 |     100 |     100 |                   
+  FilterClothes.tsx            |     100 |      100 |     100 |     100 |                   
+  Home.tsx                     |       0 |      100 |       0 |       0 | 33                
+  NavBar.tsx                   |       0 |        0 |       0 |       0 | 22-259            
+  OrderViewer.tsx              |       0 |      100 |       0 |       0 | 10                
+  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                   
+  StockEditor.tsx              |       0 |        0 |       0 |       0 | 69-453            
+  SweatShirtDisplays.tsx       |     100 |      100 |     100 |     100 |                   
+ src/ClothingComponents        |       0 |      100 |       0 |       0 |                   
+  ShirtFiveDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
+  ShirtFourDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
+  ShirtOneDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
+  ShirtSixDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
+  ShirtThreeDetail.tsx         |       0 |      100 |       0 |       0 | 7                 
+  ShirtTwoDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtFiveDetail.tsx     |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtFourDetail.tsx     |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtOneDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtSixDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtThreeDetail.tsx    |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtTwoDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
+-------------------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        4.02 s
+Ran all test suites.
