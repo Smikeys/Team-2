@@ -136,24 +136,25 @@ PASS src/StockEditor.test.tsx
 -------------------------------|---------|----------|---------|---------|-------------------
 File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------------------|---------|----------|---------|---------|-------------------
-All files                      |    8.72 |    55.91 |   12.04 |    8.72 |                   
- src                           |    9.55 |    55.91 |   14.28 |    9.55 |                   
+All files                      |     5.5 |    36.36 |    7.46 |     5.5 |                   
+ src                           |    5.88 |    36.87 |     8.4 |    5.88 |                   
   Admin.tsx                    |       0 |      100 |       0 |       0 | 56                
   App.tsx                      |       0 |      100 |       0 |       0 | 7                 
-  CartDisplay.tsx              |       0 |      100 |       0 |       0 | 10                
+  CartDisplay.tsx              |       0 |        0 |       0 |       0 | 118-628           
   ClothingDisplay.tsx          |     100 |      100 |     100 |     100 |                   
   ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24             
   FilterClothes.tsx            |     100 |      100 |     100 |     100 |                   
   Home.tsx                     |       0 |      100 |       0 |       0 | 33                
-  NavBar.tsx                   |       0 |        0 |       0 |       0 | 22-259            
+  NavBar.tsx                   |       0 |        0 |       0 |       0 | 22-326            
   OrderViewer.tsx              |       0 |      100 |       0 |       0 | 10                
   ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                   
   StockEditor.tsx              |     8.1 |       50 |     8.1 |     8.1 | 97,120-457        
   SweatShirtDisplays.tsx       |     100 |      100 |     100 |     100 |                   
- src/ClothingComponents        |       0 |      100 |       0 |       0 |                   
+  cartEditor.tsx               |       0 |      100 |       0 |       0 | 103               
+ src/ClothingComponents        |       0 |        0 |       0 |       0 |                   
   ShirtFiveDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
   ShirtFourDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
-  ShirtOneDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
+  ShirtOneDetail.tsx           |       0 |        0 |       0 |       0 | 15-70             
   ShirtSixDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
   ShirtThreeDetail.tsx         |       0 |      100 |       0 |       0 | 7                 
   ShirtTwoDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
@@ -169,5 +170,5 @@ All files                      |    8.72 |    55.91 |   12.04 |    8.72 |
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       7 failed, 5 passed, 12 total
 Snapshots:   0 total
-Time:        4.779 s
+Time:        6.939 s
 Ran all test suites.
