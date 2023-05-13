@@ -136,7 +136,7 @@ PASS src/StockEditor.test.tsx
 -------------------------------|---------|----------|---------|---------|-------------------
 File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------------------|---------|----------|---------|---------|-------------------
-All files                      |     5.5 |    36.36 |    7.46 |     5.5 |                   
+All files                      |    4.81 |    31.51 |    6.41 |    4.81 |                   
  src                           |    5.88 |    36.87 |     8.4 |    5.88 |                   
   Admin.tsx                    |       0 |      100 |       0 |       0 | 56                
   App.tsx                      |       0 |      100 |       0 |       0 | 7                 
@@ -152,23 +152,23 @@ All files                      |     5.5 |    36.36 |    7.46 |     5.5 |
   SweatShirtDisplays.tsx       |     100 |      100 |     100 |     100 |                   
   cartEditor.tsx               |       0 |      100 |       0 |       0 | 103               
  src/ClothingComponents        |       0 |        0 |       0 |       0 |                   
-  ShirtFiveDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
-  ShirtFourDetail.tsx          |       0 |      100 |       0 |       0 | 7                 
-  ShirtOneDetail.tsx           |       0 |        0 |       0 |       0 | 15-70             
-  ShirtSixDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
-  ShirtThreeDetail.tsx         |       0 |      100 |       0 |       0 | 7                 
-  ShirtTwoDetail.tsx           |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtFiveDetail.tsx     |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtFourDetail.tsx     |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtOneDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtSixDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtThreeDetail.tsx    |       0 |      100 |       0 |       0 | 7                 
+  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76             
+  ShirtFourDetail.tsx          |       0 |        0 |       0 |       0 | 18-76             
+  ShirtOneDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
+  ShirtSixDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
+  ShirtThreeDetail.tsx         |       0 |        0 |       0 |       0 | 18-76             
+  ShirtTwoDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
+  SweatshirtFiveDetail.tsx     |       0 |        0 |       0 |       0 | 18-76             
+  SweatshirtFourDetail.tsx     |       0 |        0 |       0 |       0 | 18-76             
+  SweatshirtOneDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
+  SweatshirtSixDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
+  SweatshirtThreeDetail.tsx    |       0 |        0 |       0 |       0 | 18-76             
   SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtTwoDetail.tsx      |       0 |      100 |       0 |       0 | 7                 
+  SweatshirtTwoDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
 -------------------------------|---------|----------|---------|---------|-------------------
 
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       7 failed, 5 passed, 12 total
 Snapshots:   0 total
-Time:        6.343 s
+Time:        5.302 s
 Ran all test suites.
