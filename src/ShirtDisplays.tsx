@@ -22,6 +22,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt one"}
                                 color={"black"}
+                                path="/ShirtOne"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -34,6 +35,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt two"}
                                 color={"red"}
+                                path="/ShirtTwo"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -48,6 +50,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt three"}
                                 color={"green"}
+                                path="/ShirtThree"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -60,6 +63,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt four"}
                                 color={"blue"}
+                                path="/ShirtFour"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -74,6 +78,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt five"}
                                 color={"pink"}
+                                path="/ShirtFive"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -86,6 +91,7 @@ export function ShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt six"}
                                 color={"yellow"}
+                                path="/ShirtSix"
                             ></ClothingDisplay>
                         )}
                     </Col>

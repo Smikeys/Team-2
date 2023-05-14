@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export function ClothingDisplay({
     title,
@@ -7,7 +8,8 @@ export function ClothingDisplay({
     height,
     width,
     alt,
-    color
+    color,
+    path
 }: {
     title: string;
     source: string;
@@ -15,6 +17,7 @@ export function ClothingDisplay({
     width: number;
     alt: string;
     color: string;
+    path: string;
 }): JSX.Element {
     return (
         <div>
@@ -27,13 +30,15 @@ export function ClothingDisplay({
                 color={color}
             ></img>
             <div>
-                <Button
-                    style={{
-                        fontSize: "10px"
-                    }}
-                >
-                    Detail
-                </Button>
+                <Link to={path}>
+                    <Button
+                        style={{
+                            fontSize: "10px"
+                        }}
+                    >
+                        Detail
+                    </Button>
+                </Link>
             </div>
             <p>Price: $2.00</p>
             <Button>Add to Cart</Button>

@@ -22,6 +22,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt one"}
                                 color={"black"}
+                                path="/SweatshirtOne"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -34,6 +35,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt two"}
                                 color={"blue"}
+                                path="/SweatshirtTwo"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -48,6 +50,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt three"}
                                 color={"red"}
+                                path="/SweatshirtThree"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -60,6 +63,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt four"}
                                 color={"green"}
+                                path="/SweatshirtFour"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -74,6 +78,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt five"}
                                 color={"purple"}
+                                path="/SweatshirtFive"
                             ></ClothingDisplay>
                         )}
                     </Col>
@@ -86,6 +91,7 @@ export function SweatShirtDisplays({ color }: { color: string }) {
                                 width={200}
                                 alt={"Shirt six"}
                                 color={"yellow"}
+                                path="/SweatshirtSix"
                             ></ClothingDisplay>
                         )}
                     </Col>
