@@ -14,15 +14,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      56 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      57 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 58 |         expect(nonOtherShirt).toHaveLength(1);
+      92 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      93 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 94 |         expect(nonOtherShirt).toHaveLength(1);
          |                               ^
-      59 |         expect(nonOtherSweatShirt).toHaveLength(1);
-      60 |     });
-      61 |
+      95 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      96 |     });
+      97 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:58:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:94:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When red is selected, all red clothing is displayed
 
@@ -32,15 +32,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      69 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      70 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 71 |         expect(nonOtherShirt).toHaveLength(1);
-         |                               ^
-      72 |         expect(nonOtherSweatShirt).toHaveLength(1);
-      73 |     });
-      74 |
+      105 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      106 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 107 |         expect(nonOtherShirt).toHaveLength(1);
+          |                               ^
+      108 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      109 |     });
+      110 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:71:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:107:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When blue is selected, all blue clothing is displayed
 
@@ -50,15 +50,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      82 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      83 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 84 |         expect(nonOtherShirt).toHaveLength(1);
-         |                               ^
-      85 |         expect(nonOtherSweatShirt).toHaveLength(1);
-      86 |     });
-      87 |
+      118 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      119 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 120 |         expect(nonOtherShirt).toHaveLength(1);
+          |                               ^
+      121 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      122 |     });
+      123 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:84:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:120:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When black is selected, all black clothing is displayed
 
@@ -68,15 +68,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-       95 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-       96 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    >  97 |         expect(nonOtherShirt).toHaveLength(1);
+      131 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      132 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 133 |         expect(nonOtherShirt).toHaveLength(1);
           |                               ^
-       98 |         expect(nonOtherSweatShirt).toHaveLength(1);
-       99 |     });
-      100 |
+      134 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      135 |     });
+      136 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:97:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:133:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When purple is selected, all purple clothing is displayed
 
@@ -86,15 +86,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      108 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      109 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 110 |         expect(nonOtherShirt).toHaveLength(0);
+      144 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      145 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 146 |         expect(nonOtherShirt).toHaveLength(0);
           |                               ^
-      111 |         expect(nonOtherSweatShirt).toHaveLength(1);
-      112 |     });
-      113 |
+      147 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      148 |     });
+      149 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:110:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:146:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When pink is selected, all pink clothing is displayed
 
@@ -104,15 +104,15 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      121 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      122 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 123 |         expect(nonOtherShirt).toHaveLength(1);
+      157 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      158 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 159 |         expect(nonOtherShirt).toHaveLength(1);
           |                               ^
-      124 |         expect(nonOtherSweatShirt).toHaveLength(0);
-      125 |     });
-      126 |
+      160 |         expect(nonOtherSweatShirt).toHaveLength(0);
+      161 |     });
+      162 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:123:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:159:31)
 
   ● FilterClothes Component tests, covering Inventory MVP element › When green is selected, all green clothing is displayed
 
@@ -122,53 +122,54 @@ FAIL src/FilterClothes.test.tsx
     Received length: 6
     Received array:  [<img alt="Shirt" color="black" data-testid="black" height="200" src="shirt1.png" width="200" />, <img alt="Shirt" color="red" data-testid="red" height="200" src="shirt2.png" width="200" />, <img alt="Shirt" color="green" data-testid="green" height="200" src="shirt3.png" width="200" />, <img alt="Shirt" color="blue" data-testid="blue" height="200" src="shirt4.png" width="200" />, <img alt="Shirt" color="pink" data-testid="pink" height="200" src="shirt5.png" width="200" />, <img alt="Shirt" color="yellow" data-testid="yellow" height="200" src="shirt6.png" width="200" />]
 
-      134 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
-      135 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
-    > 136 |         expect(nonOtherShirt).toHaveLength(1);
+      170 |         const nonOtherShirt = screen.queryAllByAltText("Shirt");
+      171 |         const nonOtherSweatShirt = screen.queryAllByAltText("Sweatshirt");
+    > 172 |         expect(nonOtherShirt).toHaveLength(1);
           |                               ^
-      137 |         expect(nonOtherSweatShirt).toHaveLength(1);
-      138 |     });
-      139 |
+      173 |         expect(nonOtherSweatShirt).toHaveLength(1);
+      174 |     });
+      175 |
 
-      at Object.<anonymous> (src/FilterClothes.test.tsx:136:31)
+      at Object.<anonymous> (src/FilterClothes.test.tsx:172:31)
 
 PASS src/StockEditor.test.tsx
--------------------------------|---------|----------|---------|---------|-------------------
-File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------------------------|---------|----------|---------|---------|-------------------
-All files                      |    4.81 |    31.51 |    6.41 |    4.81 |                   
- src                           |    5.88 |    36.87 |     8.4 |    5.88 |                   
-  Admin.tsx                    |       0 |      100 |       0 |       0 | 56                
-  App.tsx                      |       0 |      100 |       0 |       0 | 7                 
-  CartDisplay.tsx              |       0 |        0 |       0 |       0 | 118-628           
-  ClothingDisplay.tsx          |     100 |      100 |     100 |     100 |                   
-  ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24             
-  FilterClothes.tsx            |     100 |      100 |     100 |     100 |                   
-  Home.tsx                     |       0 |      100 |       0 |       0 | 33                
-  NavBar.tsx                   |       0 |        0 |       0 |       0 | 22-326            
-  OrderViewer.tsx              |       0 |      100 |       0 |       0 | 10                
-  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                   
-  StockEditor.tsx              |     8.1 |       50 |     8.1 |     8.1 | 97,120-457        
-  SweatShirtDisplays.tsx       |     100 |      100 |     100 |     100 |                   
-  cartEditor.tsx               |       0 |      100 |       0 |       0 | 103               
- src/ClothingComponents        |       0 |        0 |       0 |       0 |                   
-  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76             
-  ShirtFourDetail.tsx          |       0 |        0 |       0 |       0 | 18-76             
-  ShirtOneDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
-  ShirtSixDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
-  ShirtThreeDetail.tsx         |       0 |        0 |       0 |       0 | 18-76             
-  ShirtTwoDetail.tsx           |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtFiveDetail.tsx     |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtFourDetail.tsx     |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtOneDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtSixDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtThreeDetail.tsx    |       0 |        0 |       0 |       0 | 18-76             
-  SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                 
-  SweatshirtTwoDetail.tsx      |       0 |        0 |       0 |       0 | 18-76             
--------------------------------|---------|----------|---------|---------|-------------------
+PASS src/Login.test.tsx
+-------------------------------|---------|----------|---------|---------|--------------------------------------------------
+File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                
+-------------------------------|---------|----------|---------|---------|--------------------------------------------------
+All files                      |   22.71 |    35.92 |   10.75 |   22.71 |                                                  
+ src                           |   27.67 |    41.95 |   14.04 |   27.67 |                                                  
+  Admin.tsx                    |       0 |      100 |       0 |       0 | 56                                               
+  App.tsx                      |     100 |      100 |     100 |     100 |                                                  
+  CartDisplay.tsx              |       0 |        0 |       0 |       0 | 118-628                                          
+  ClothingDisplay.tsx          |      25 |      100 |   33.33 |      25 | 60-63                                            
+  ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24                                            
+  FilterClothes.tsx            |     100 |      100 |     100 |     100 |                                                  
+  Home.tsx                     |     100 |      100 |     100 |     100 |                                                  
+  NavBar.tsx                   |      50 |    20.68 |   26.31 |      50 | 66-88,92-105,109,117,123-129,137-151,156-179,361 
+  OrderViewer.tsx              |       0 |      100 |       0 |       0 | 10                                               
+  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                                                  
+  StockEditor.tsx              |     8.1 |       50 |     8.1 |     8.1 | 97,120-457                                       
+  SweatShirtDisplays.tsx       |     100 |      100 |     100 |     100 |                                                  
+  cartEditor.tsx               |       0 |      100 |       0 |       0 | 103                                              
+ src/ClothingComponents        |       0 |        0 |       0 |       0 |                                                  
+  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                            
+  ShirtFourDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                            
+  ShirtOneDetail.tsx           |       0 |        0 |       0 |       0 | 18-76                                            
+  ShirtSixDetail.tsx           |       0 |        0 |       0 |       0 | 18-76                                            
+  ShirtThreeDetail.tsx         |       0 |        0 |       0 |       0 | 18-76                                            
+  ShirtTwoDetail.tsx           |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtFiveDetail.tsx     |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtFourDetail.tsx     |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtOneDetail.tsx      |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtSixDetail.tsx      |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtThreeDetail.tsx    |       0 |        0 |       0 |       0 | 18-76                                            
+  SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                                                
+  SweatshirtTwoDetail.tsx      |       0 |        0 |       0 |       0 | 18-76                                            
+-------------------------------|---------|----------|---------|---------|--------------------------------------------------
 
-Test Suites: 1 failed, 1 passed, 2 total
-Tests:       7 failed, 5 passed, 12 total
+Test Suites: 1 failed, 2 passed, 3 total
+Tests:       7 failed, 8 passed, 15 total
 Snapshots:   0 total
-Time:        5.302 s
+Time:        6.953 s
 Ran all test suites.

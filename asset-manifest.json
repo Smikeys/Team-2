@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Team-2/static/css/main.ec691c19.css",
-    "main.js": "/Team-2/static/js/main.0936e019.js",
+    "main.css": "/Team-2/static/css/main.508d2c82.css",
+    "main.js": "/Team-2/static/js/main.00f379b4.js",
     "static/js/787.4ef7427d.chunk.js": "/Team-2/static/js/787.4ef7427d.chunk.js",
     "static/media/sweatshirt5.png": "/Team-2/static/media/sweatshirt5.966482334a8eb171514a.png",
     "static/media/shirt2.png": "/Team-2/static/media/shirt2.4f6821c6628da62ceb58.png",
@@ -13,15 +13,16 @@
     "static/media/sweatshirt6.png": "/Team-2/static/media/sweatshirt6.b610f2a2743c90e6e024.png",
     "static/media/sweatshirt1.png": "/Team-2/static/media/sweatshirt1.78b8796444ea8e83b776.png",
     "static/media/shirt6.png": "/Team-2/static/media/shirt6.2d6514c4f7a9b365b895.png",
+    "static/media/logo.png": "/Team-2/static/media/logo.ccd9cc14acd25a9acb50.png",
     "static/media/shirt3.png": "/Team-2/static/media/shirt3.5bd20894901d94871ac5.png",
     "static/media/sweatshirt4.png": "/Team-2/static/media/sweatshirt4.4a6e57b1f3e2740e0adb.png",
     "index.html": "/Team-2/index.html",
-    "main.ec691c19.css.map": "/Team-2/static/css/main.ec691c19.css.map",
-    "main.0936e019.js.map": "/Team-2/static/js/main.0936e019.js.map",
+    "main.508d2c82.css.map": "/Team-2/static/css/main.508d2c82.css.map",
+    "main.00f379b4.js.map": "/Team-2/static/js/main.00f379b4.js.map",
     "787.4ef7427d.chunk.js.map": "/Team-2/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec691c19.css",
-    "static/js/main.0936e019.js"
+    "static/css/main.508d2c82.css",
+    "static/js/main.00f379b4.js"
   ]
 }
