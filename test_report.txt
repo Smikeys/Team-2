@@ -142,7 +142,7 @@ All files                      |   22.71 |    35.92 |   10.75 |   22.71 |
   Admin.tsx                    |       0 |      100 |       0 |       0 | 56                                               
   App.tsx                      |     100 |      100 |     100 |     100 |                                                  
   CartDisplay.tsx              |       0 |        0 |       0 |       0 | 118-628                                          
-  ClothingDisplay.tsx          |      25 |      100 |   33.33 |      25 | 60-63                                            
+  ClothingDisplay.tsx          |      25 |      100 |   33.33 |      25 | 58-61                                            
   ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24                                            
   FilterClothes.tsx            |     100 |      100 |     100 |     100 |                                                  
   Home.tsx                     |     100 |      100 |     100 |     100 |                                                  
@@ -171,5 +171,5 @@ All files                      |   22.71 |    35.92 |   10.75 |   22.71 |
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       7 failed, 8 passed, 15 total
 Snapshots:   0 total
-Time:        6.953 s
+Time:        8.209 s
 Ran all test suites.
