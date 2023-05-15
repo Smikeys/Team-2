@@ -1691,7 +1691,7 @@ FAIL src/FilterClothes.test.tsx
           at innerInvokeEventListeners ------------------------------|---------|----------|---------|---------|----------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                  
 ------------------------------|---------|----------|---------|---------|----------------------------------------------------
-All files                     |   21.38 |    35.08 |    8.67 |   21.38 |                                                    
+All files                     |   20.96 |    34.68 |    8.62 |   20.96 |                                                    
  Admin.tsx                    |       0 |      100 |       0 |       0 | 76                                                 
  App.tsx                      |     100 |      100 |     100 |     100 |                                                    
  CartDisplay.tsx              |       0 |        0 |       0 |       0 | 139-649                                            
@@ -1700,7 +1700,7 @@ All files                     |   21.38 |    35.08 |    8.67 |   21.38 |
  FilterClothes.tsx            |   66.66 |      100 |   33.33 |   66.66 | 111-115                                            
  Home.tsx                     |     100 |      100 |     100 |     100 |                                                    
  NavBar.tsx                   |   52.52 |    20.68 |   26.31 |   52.52 | 88-110,114-127,131,139,145-151,159-173,178-201,393 
- OrderViewer.tsx              |       0 |        0 |       0 |       0 | 28-85                                              
+ OrderViewer.tsx              |       0 |        0 |       0 |       0 | 28-91                                              
  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                                                    
  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                              
  ShirtFourDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                              
@@ -11506,5 +11506,5 @@ PASS src/Login.test.tsx
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       10 failed, 5 passed, 15 total
 Snapshots:   0 total
-Time:        8.395 s
+Time:        6.921 s
 Ran all test suites.
