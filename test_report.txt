@@ -1699,7 +1699,7 @@ All files                     |   21.38 |     35.5 |    9.03 |   21.38 |
  ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24                                              
  FilterClothes.tsx            |   66.66 |      100 |   33.33 |   66.66 | 111-115                                            
  Home.tsx                     |     100 |      100 |     100 |     100 |                                                    
- NavBar.tsx                   |   52.52 |    20.68 |   26.31 |   52.52 | 87-109,113-126,130,138,144-150,158-172,177-200,392 
+ NavBar.tsx                   |   52.52 |    20.68 |   26.31 |   52.52 | 88-110,114-127,131,139,145-151,159-173,178-201,393 
  OrderViewer.tsx              |       0 |      100 |       0 |       0 | 13-26                                              
  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                                                    
  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                              
@@ -11505,5 +11505,5 @@ PASS src/Login.test.tsx
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       10 failed, 5 passed, 15 total
 Snapshots:   0 total
-Time:        9.106 s
+Time:        6.898 s
 Ran all test suites.
