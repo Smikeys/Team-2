@@ -1691,7 +1691,7 @@ FAIL src/FilterClothes.test.tsx
           at innerInvokeEventListeners ------------------------------|---------|----------|---------|---------|----------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                  
 ------------------------------|---------|----------|---------|---------|----------------------------------------------------
-All files                     |   20.96 |    34.68 |    8.62 |   20.96 |                                                    
+All files                     |   20.18 |    34.68 |    8.62 |   20.18 |                                                    
  Admin.tsx                    |       0 |      100 |       0 |       0 | 76                                                 
  App.tsx                      |     100 |      100 |     100 |     100 |                                                    
  CartDisplay.tsx              |       0 |        0 |       0 |       0 | 139-649                                            
@@ -1718,7 +1718,7 @@ All files                     |   20.96 |    34.68 |    8.62 |   20.96 |
  SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                                                  
  SweatshirtTwoDetail.tsx      |       0 |        0 |       0 |       0 | 18-76                                              
  cartEditor.tsx               |       0 |      100 |       0 |       0 | 123                                                
- checkoutPopup.tsx            |       0 |        0 |       0 |       0 | 23-45                                              
+ checkoutPopup.tsx            |       0 |        0 |       0 |       0 | 49-91                                              
 ------------------------------|---------|----------|---------|---------|----------------------------------------------------
 (/home/runner/work/Team-2/Team-2/node_modules/react-scripts/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
           at invokeEventListeners (/home/runner/work/Team-2/Team-2/node_modules/react-scripts/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
@@ -11506,5 +11506,5 @@ PASS src/Login.test.tsx
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       10 failed, 5 passed, 15 total
 Snapshots:   0 total
-Time:        6.921 s
+Time:        7.16 s
 Ran all test suites.
