@@ -1691,15 +1691,15 @@ FAIL src/FilterClothes.test.tsx
           at innerInvokeEventListeners ------------------------------|---------|----------|---------|---------|----------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                  
 ------------------------------|---------|----------|---------|---------|----------------------------------------------------
-All files                     |   21.38 |     35.5 |    9.03 |   21.38 |                                                    
+All files                     |   21.29 |     35.5 |    9.03 |   21.29 |                                                    
  Admin.tsx                    |       0 |      100 |       0 |       0 | 60                                                 
  App.tsx                      |     100 |      100 |     100 |     100 |                                                    
- CartDisplay.tsx              |       0 |        0 |       0 |       0 | 139-649                                            
+ CartDisplay.tsx              |       0 |        0 |       0 |       0 | 143-653                                            
  ClothingDisplay.tsx          |      25 |      100 |   33.33 |      25 | 64-67                                              
  ColorFilter.tsx              |   33.33 |      100 |   33.33 |   33.33 | 13,24                                              
  FilterClothes.tsx            |   66.66 |      100 |   33.33 |   66.66 | 111-115                                            
  Home.tsx                     |     100 |      100 |     100 |     100 |                                                    
- NavBar.tsx                   |   52.52 |    20.68 |   26.31 |   52.52 | 88-110,114-127,131,139,145-151,159-173,178-201,393 
+ NavBar.tsx                   |      53 |    20.68 |   26.31 |      53 | 89-111,115-128,132,140,146-152,160-174,179-202,396 
  OrderViewer.tsx              |       0 |      100 |       0 |       0 | 13-26                                              
  ShirtDisplays.tsx            |     100 |      100 |     100 |     100 |                                                    
  ShirtFiveDetail.tsx          |       0 |        0 |       0 |       0 | 18-76                                              
@@ -1717,7 +1717,7 @@ All files                     |   21.38 |     35.5 |    9.03 |   21.38 |
  SweatshirtThreeDetail.tsx    |       0 |        0 |       0 |       0 | 18-76                                              
  SweatshirtTwoDetail copy.tsx |       0 |      100 |       0 |       0 | 7                                                  
  SweatshirtTwoDetail.tsx      |       0 |        0 |       0 |       0 | 18-76                                              
- checkoutPopup.tsx            |       0 |        0 |       0 |       0 | 54-116                                             
+ checkoutPopup.tsx            |       0 |        0 |       0 |       0 | 57-122                                             
 ------------------------------|---------|----------|---------|---------|----------------------------------------------------
 (/home/runner/work/Team-2/Team-2/node_modules/react-scripts/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
           at invokeEventListeners (/home/runner/work/Team-2/Team-2/node_modules/react-scripts/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
@@ -11505,5 +11505,5 @@ PASS src/Login.test.tsx
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       10 failed, 5 passed, 15 total
 Snapshots:   0 total
-Time:        6.898 s
+Time:        8.333 s
 Ran all test suites.
